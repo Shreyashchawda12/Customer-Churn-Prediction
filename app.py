@@ -51,9 +51,9 @@ def predict_datapoint():
 
         def final_result(pred):
             if pred==1:
-                result='churn'
+                result='customer is churning telcos service'
             else:
-                result = 'not churn'
+                result = 'customer not churning telcos service very much'
             return result
         
         final_results = final_result(pred)
