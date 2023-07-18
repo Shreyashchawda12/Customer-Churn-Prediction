@@ -41,8 +41,6 @@ def predict_datapoint():
             TotalCharges=int(request.form.get('TotalCharges'))
             
             
-            
-            
            
         )
         final_new_data=data.get_data_as_dataframe()
