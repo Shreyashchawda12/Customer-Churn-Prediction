@@ -7,9 +7,7 @@ conda create -p "telcom" python==3.8
 conda activate E:\Telecom\telcom\
 ```
 ### Install all necessary libraries
-```
-pip install -r requirements.txt
-
+``
 ### Deployment
 1. Docker Build checked
 2. Github Workflow
@@ -42,9 +40,9 @@ AWS_SECRET_ACCESS_KEY =
 
 AWS_REGION = ap-southeast-2
 
-AWS_ECR_LOGIN_URL = 536633663342.dkr.ecr.ap-southeast-2.amazonaws.com
+AWS_ECR_LOGIN_URL = 536633663342.dkr.ecr.ap-southeast-2.amazonaws.com/
 
-ECR_REPOSITORY_NAME = customer_experience_prediction
+ECR_REPOSITORY_NAME = telecom
 
 
 

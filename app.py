@@ -41,6 +41,7 @@ def predict_datapoint():
             MonthlyCharges=int(request.form.get('MonthlyCharges')),
             TotalCharges=int(request.form.get('TotalCharges'))
             
+    
             
            
         )
@@ -59,10 +60,6 @@ def predict_datapoint():
             
 
         return render_template('results.html',final_results = final_result(pred))
-
-
-
-
 
 
 
